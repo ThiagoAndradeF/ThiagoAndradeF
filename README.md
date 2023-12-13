@@ -3,7 +3,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/sujeitoprogramador)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-andrade-484242221/)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ThiagoAndradeF&hide_progress=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ThiagoAndradeF&size_weight=0.5&count_weight=0.5)
 
 ## Tecnologias que eu uso no meu dia
 
