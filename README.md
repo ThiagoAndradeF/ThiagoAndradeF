@@ -47,8 +47,8 @@ func getAttributes() (Contact, Life, Coding) {
 
 <p></p>
 
-<p align="center">
+<!-- <p align="center">
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ThiagoAndradeF&theme=tokyonight" alt="ThiagoAndradeF" />
-</p>
-<!-- ![Profile Views](https://komarev.com/ghpvc/?username=ThiagoAndradeF&color=7aa2f7&abbreviated=true)
+</p> 
+ ![Profile Views](https://komarev.com/ghpvc/?username=ThiagoAndradeF&color=7aa2f7&abbreviated=true)
  -->
