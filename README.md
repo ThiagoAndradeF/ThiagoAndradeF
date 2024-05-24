@@ -2,7 +2,7 @@
 
 ```go
 
-package xBadApple
+package ThiagoAndradeF
 
 func getAttributes() (Contact, Life, Coding) {
 	contact := Contact{
