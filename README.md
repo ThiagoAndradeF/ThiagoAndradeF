@@ -22,7 +22,7 @@ func getAttributes() (Contact, Life, Coding) {
 		Langs: map[string][]string{
 			"expert":       {"typescript/angular"},
 			"intermediate": {"c#/.net", "javascript"},
-			"hasExperience": {"c#", "c++"},
+			"hasExperience": {"c#", "c++", angular, javascript},
 		},
 		Databases:    []string{"sql server", "mysql", "sqlite"},
 		Specialities: []string{"fullstack", "software engineering", "apis"
