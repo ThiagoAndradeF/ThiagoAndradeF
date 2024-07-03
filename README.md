@@ -47,7 +47,4 @@ func getAttributes() (Contact, Life, Coding) {
 
 <p></p>
 
-<p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ThiagoAndradeF&theme=tokyonight" alt="Gui" />
-</p>
 
