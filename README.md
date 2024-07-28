@@ -20,8 +20,8 @@ func getAttributes() (Contact, Life, Coding) {
 
 	coding := Coding{
 		Langs: map[string][]string{
-			"expert":       {"typescript/angular"},
-			"intermediate": {"c#/.net", "javascript"},
+			"expert":       {"typescript/angular","c#/.net"},
+			"intermediate": {"javascript"},
 			"hasExperience": {"c#", "c++", "angular", "javascript"},
 		},
 		Databases:    []string{"sql server", "mysql", "sqlite"},
