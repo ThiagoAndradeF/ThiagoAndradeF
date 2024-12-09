@@ -2,36 +2,42 @@
 
 ```go
 
-package ThiagoAndradeF
-
-func getAttributes() (Contact, Life, Coding) {
-	contact := Contact{
-		Email:   "thiagoandradeferreira16@gmail.com",
-		Discord: "thiagoclencysson",
-	}
-
-	life := Life{
-		Name:    "thiago",
-		Alias:   "thi",
-		Langs:   []string{"english", "portuguese"},
-		Country: "br",
-		Age:     22,
-	}
-
-	coding := Coding{
-		Langs: map[string][]string{
-			"expert":       {"typescript/angular","c#/.net"},
-			"intermediate": {"javascript"},
-			"hasExperience": {"c#", "c++", "angular", "javascript"},
-		},
-		Databases:    []string{"sql server", "mysql", "sqlite"},
-		Specialities: []string{"fullstack", "software engineering", "apis"
-		,"web/app"},
-		Ide:          []string{"vscode", "visual studio"},
-	}
-
-	return contact, life, coding
+namespace ThiagoAndradeF
+{
+    public class ThiagoAttributes
+    {
+        public static (Contact, Life, Coding) GetAttributes()
+        {
+            var contact = new Contact
+            {
+                Email = "thiagoandradeferreira16@gmail.com",
+                Discord = "thiagoclencysson"
+            };
+            var life = new Life
+            {
+                Name = "thiago",
+                Alias = "thi",
+                Langs = new List<string> { "english", "portuguese" },
+                Country = "br",
+                Age = 22
+            };
+            var coding = new Coding
+            {
+                Langs = new Dictionary<string, List<string>>
+                {
+                    { "expert", new List<string> { "typescript/angular", "c#/.net" } },
+                    { "intermediate", new List<string> { "javascript" } },
+                    { "hasExperience", new List<string> { "c#", "c++", "angular", "javascript" } }
+                },
+                Databases = new List<string> { "sql server", "mysql", "sqlite" },
+                Specialities = new List<string> { "fullstack", "software engineering", "apis", "web/app" },
+                Ide = new List<string> { "vscode", "visual studio" }
+            };
+            return (contact, life, coding);
+        }
+    }
 }
+
 ```
 
 <h2 align="center">Skills </h2>
