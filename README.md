@@ -30,8 +30,8 @@ namespace ThiagoAndradeF
             {
                 Langs = new Dictionary<string, List<string>>
                 {
-                    { "expert", new List<string> { "typescript/angular", "c#/.net" } },
-                    { "intermediate", new List<string> { "javascript" } },
+                    { "expert", new List<string> { "typescript/angular", "c#/.net", "javascript" } },
+                    { "intermediate", new List<string> { "c++", "python" } },
                     { "hasExperience", new List<string> { "c#", "c++", "angular", "javascript" } }
                 },
                 Databases = new List<string> { "sql server", "mysql", "sqlite" },
@@ -49,7 +49,7 @@ namespace ThiagoAndradeF
 
 <div align="center">
   <a href="https://skillicons.dev" style="display: inline-block; margin-right: 20px;">
-    <img src="https://skillicons.dev/icons?i=dotnet,angular,c,cpp,cs,js,ts" />
+    <img src="https://skillicons.dev/icons?i=dotnet,angular,c,cpp,cs,js,ts,git,redis,linux" />
   </a>
   <a href="https://skillicons.dev" style="display: inline-block;">
     <img src="https://skillicons.dev/icons?i=postgres,mysql,html,css,sass,vscode,visualstudio,docker" />
