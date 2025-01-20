@@ -2,6 +2,9 @@
 
 ```csharp
 
+using System;
+using System.Collections.Generic;
+
 namespace ThiagoAndradeF
 {
     public class ThiagoAttributes
@@ -13,6 +16,7 @@ namespace ThiagoAndradeF
                 Email = "thiagoandradeferreira16@gmail.com",
                 Discord = "thiagoclencysson"
             };
+
             var life = new Life
             {
                 Name = "thiago",
@@ -21,6 +25,7 @@ namespace ThiagoAndradeF
                 Country = "br",
                 Age = 22
             };
+
             var coding = new Coding
             {
                 Langs = new Dictionary<string, List<string>>
@@ -33,11 +38,11 @@ namespace ThiagoAndradeF
                 Specialities = new List<string> { "fullstack", "software engineering", "apis", "web/app" },
                 Ide = new List<string> { "vscode", "visual studio" }
             };
+
             return (contact, life, coding);
         }
     }
 }
-
 ```
 
 <h2 align="center">Skills </h2>
