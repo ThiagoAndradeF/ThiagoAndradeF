@@ -49,7 +49,7 @@ namespace ThiagoAndradeF
 
 <div align="center">
   <a href="https://skillicons.dev" style="display: inline-block; margin-right: 20px;">
-    <img src="https://skillicons.dev/icons?i=dotnet,angular,c,cpp,cs,js,ts,git,redis,linux" />
+    <img src="https://skillicons.dev/icons?i=dotnet,angular,c,cpp,cs,js,ts,git,redis,linux,azure" />
   </a>
   <a href="https://skillicons.dev" style="display: inline-block;">
     <img src="https://skillicons.dev/icons?i=postgres,mysql,html,css,sass,vscode,visualstudio,docker" />
