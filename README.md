@@ -34,9 +34,8 @@ namespace ThiagoAndradeF
                     { "intermediate", new List<string> { "c++", "python" } },
                     { "hasExperience", new List<string> { "c#", "c++", "angular", "javascript" } }
                 },
-                Databases = new List<string> { "sql server", "mysql", "sqlite" },
-                Specialities = new List<string> { "fullstack", "software engineering", "apis", "web/app" },
-                Ide = new List<string> { "vscode", "visual studio" }
+                Databases = new List<string> { "sql server", "mysql", "sqlite", "mongo","redis","pgsql",},
+                Specialities = new List<string> { "fullstack", "software engineering", "apis", "web/app", "ai architecture"},
             };
 
             return (contact, life, coding);
